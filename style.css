@@ -1,0 +1,35 @@
+.jumbotron{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: 900;
+}
+
+h1{
+    font-weight: 900;
+    font-family: 'Abril Fatface';
+    font-size: 150%;
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    font-weight: 900;
+    font-family: 'Abril Fatface';
+     font-size: 200%;
+}
+
+.material-icons{
+    padding: 2px;
+    margin:2px;
+    font-size: 150%;
+    font-weight: 900;
+    font-size: 50px; 
+        
+}
+
+
+.button{
+    text-align: center;
+      
+} 
