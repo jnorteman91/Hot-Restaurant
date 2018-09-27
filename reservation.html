@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 
 </head>
@@ -15,13 +16,13 @@
 <body>\
     <div class="container">
         <div class="jumbotron">
-            <h1 class="text-center"><span class="fire"></span>Hot Restaurant</h1>
+            <h1 class="display-4"><i class="material-icons"> local_dining </i> Hot Restaurant</h1>
             <br>
             <h2 class="text-center">Make Your Reservation</h2>
             <br>
             <div class="text-center">
                 <a href=""><button class="btn btn-lg btn-primary"><span class="alt"></span><i class=“material-icons”>assignment</i> View Tables</button></a>
-                <a href=""><button class="btn btn-lg btn-default"><span class="home"></span><i class=“material-icons”>credit_card</i> Home</button></a>
+                <a href="home.html"><button class="btn btn-lg btn-default"><i class=“material-icons”>credit_card</i> Home</button></a>
             </div>
         </div>
 
@@ -59,11 +60,16 @@
             </div>
         </div>
 
-        <footer class="footer">
-            <div class="container">
-                <p><a href="">API Table Link</a> | <a href="">API Wait List</a>
-            </div>
-        </footer>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar" href="#">API Table Link</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar" href="#">API Wait List</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
     </div>
 </body>
 
